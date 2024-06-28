@@ -22,7 +22,7 @@ public class Dipendente {
     private String email;
 
     @OneToMany(mappedBy = "dipendente")
-    private List<Dipendente> dipendenti;
+    private List<Dispositivo> dispositivi;
 
     public Dipendente(String nome, String cognome, String email) {
         this.nome = nome;
